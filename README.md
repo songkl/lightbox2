@@ -8,6 +8,7 @@ For demos and usage instructions, visit [lokeshdhakar.com/projects/lightbox2/](h
 
 by [Lokesh Dhakar](http://www.lokeshdhakar.com)
 
+新增了图片居中 option allowVertical
 
 ## Roadmap
 
