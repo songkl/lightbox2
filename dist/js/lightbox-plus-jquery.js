@@ -9402,9 +9402,7 @@ return jQuery;
     // Position Lightbox
     var top  = $window.scrollTop() + this.options.positionFromTop + 'px';
     var left = $window.scrollLeft() + 'px';
-    if (this.options.allowVertical) {
-       top = '30%';
-    }
+
     this.$lightbox.css({
       top: top,
       left: left
