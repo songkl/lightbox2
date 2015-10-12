@@ -191,7 +191,9 @@
     // Position Lightbox
     var top  = $window.scrollTop() + this.options.positionFromTop + 'px';
     var left = $window.scrollLeft() + 'px';
-
+    if (this.options.allowVertical) {
+      top = this.$overlay.top;
+    }
     this.$lightbox.css({
       top: top,
       left: left
